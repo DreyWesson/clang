@@ -1,5 +1,5 @@
 #include <stdio.h>
-// change the value of x from a different scope
+// use pointers to infiltrate another scope using its address
 void increment(int* p) {
 	*p = (*p + 1);
 }
