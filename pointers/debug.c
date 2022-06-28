@@ -6,9 +6,7 @@ void increment(int* p) {
 
 int main() {
 	int x = 10;
-	int* p = &x;
-	increment(p);
+	increment(&x);
 	printf("%d \n", x);
-
 	return 0;
 }
