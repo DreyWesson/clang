@@ -7,6 +7,7 @@ int main()
 	double num2;
 	double result;
 
+
 	printf("What mathematical ops?\n");
 	scanf("%c", &operator);
 
