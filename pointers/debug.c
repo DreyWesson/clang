@@ -1,7 +1,7 @@
 #include <stdio.h>
 // use pointers to infiltrate another scope using its address
 void increment(int* p) {
-	*p = (*p + 1);
+	*p = (*p) + 1;
 }
 
 int main() {
